@@ -1,0 +1,75 @@
+body{
+    font : normal normal normal 12px/1.5 Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(144, 211, 216);
+}
+.gbtitle{
+    padding: 0;
+    margin: 0;
+    color: rgb(130, 1, 100);
+    font-size:40px;
+    background-color: rgb(162, 78, 78);
+}
+h2{
+    color: rgb(14, 2, 2);
+    font-size: 2em;
+}
+
+    
+.structural {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+a:hover{
+    color : rgb(5, 151, 36);
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color :rgb(226, 13, 13);
+    text-align: right;
+
+}
+
+.moreinfo{
+    border: 0px;
+    font-size: larger;
+
+}
+aside{
+    background-color: rgb(9, 180, 123);
+}
+
+.gallery
+{
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    padding: 15px;  
+}
+.quote{
+    font-style: italic;
+    font-size: x-large;
+    color: blue;
+}
+nav ul li {
+    display: inline;
+    list-style-type: none;
+}
+nav ul li a {
+    color: indigo;
+    border: 2px solid indigo;
+    text-decoration: none;
+    background-color: cornsilk;
+    padding: 5px;
+}
+nav ul li a:hover{
+    border-color: cornsilk;
+    color: cornsilk;
+    background-color: indigo;
+}
